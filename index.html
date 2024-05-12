@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Carousel</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body
+    class="font-main min-h-screen bg-slate-200 flex items-center justify-center"
+  >
+    <main>
+      <!-- Section -->
+      <section class="space-y-12">
+        <!-- Title -->
+        <div class="text-center mx-auto">
+          <h2 class="text-4xl font-bold">Our Reviews</h2>
+          <div
+            class="w-16 border-2 border-sky-400 mx-auto mt-2 rounded-lg"
+          ></div>
+        </div>
+        <!-- Main Box -->
+        <div
+          class="max-w-[700px] m-4 bg-slate-100 rounded-md shadow-xl p-8 flex flex-col justify-center items-center space-y-5 md:p-10"
+        >
+          <!-- Photo -->
+          <div class="border-[3px] shadow-xl rounded-full border-sky-400">
+            <img
+              class="person-img w-40 h-40 object-cover rounded-full"
+              src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <!-- Person Info -->
+          <div class="text-center">
+            <p class="person-name font-bold">Christopher Campbell</p>
+            <p class="person-job font-normal text-sky-900 uppercase">
+              Web Developer
+            </p>
+          </div>
+          <!-- Person Description -->
+          <p class="person-description text-center max-w-xl text-gray-700">
+            I'm baby meggings twee health goth +1. Bicycle rights tumeric
+            chartreuse before they sold out chambray pop-up. Shaman humblebrag
+            pickled coloring book salvia hoodie, cold-pressed four dollar toast
+            everyday carry
+          </p>
+          <!-- Buttons -->
+          <div class="space-x-4">
+            <button
+              class="previous-btn text-sky-400 text-2xl hover:text-sky-300 hover:scale-110 transition"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button
+              class="next-btn text-sky-400 text-2xl hover:text-sky-300 hover:scale-110 transition"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <!-- Suprise me Button -->
+          <div>
+            <button
+              class="surprise-btn px-5 py-2 text-sm bg-sky-400 rounded-md text-white uppercase font-bold tracking-wider shadow-lg hover:bg-sky-300 transition hover:scale-110"
+            >
+              Surprise Me
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
